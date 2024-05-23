@@ -1,0 +1,50 @@
+@media screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    header .img-logo {
+        width: 200px;
+        height: 100px;
+    }
+    main .subitulos {
+        margin-left: 10px;
+    }
+
+    .area-dos-cards {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+        height: 515px;
+        border: groove 5px black;
+        border-radius: 10px;
+    }
+
+    .mk-descricao {
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    th {
+        width: 120px;
+    }
+
+    .esconder-android {
+        display: none;
+    }
+}

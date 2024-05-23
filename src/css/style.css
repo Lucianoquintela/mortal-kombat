@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    background-color: #1C1C1C;
+    color: white;
+}
+
+header {
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    padding-top: 25px;
+}
+
+header .img-logo {
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+}
+
+main {
+    margin: 50px 15px 0 15px;
+}
+
+main .subitulos {
+    margin-left: 150px;
+}
+
+main .espacamento-subitulos {
+    margin-top: 30px;
+}
+
+.mk-descricao {
+    font-size: 20px;
+    margin: 0 150px 0 150px;
+    text-align: center;
+}
+
+.area-dos-cards {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 300px;
+    height: 530px;
+    border: groove 5px black;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(0.95);
+    background-color: #363636;
+    color: Silver;
+}
+
+.nome-card {
+    border: double 2px #fff;
+    margin: 20px;
+    padding: 10px;
+}
+
+.img-card {
+    width: 87%;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    border: solid 2px;
+}
+
+table {
+    margin: 0 140px 0 140px;
+}
+
+th {
+    background-color: #6495ED;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h2 {
+    color: tomato;
+    margin-bottom: 20px;
+}
+
+
+th {
+    width: 400px;
+    flex-wrap: wrap;
+}
+
+td {
+    background-color: #fff;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: #363636;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
