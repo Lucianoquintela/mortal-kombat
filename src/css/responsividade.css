@@ -47,4 +47,10 @@
     .esconder-android {
         display: none;
     }
+
+    iframe{
+       margin:10px 0 20px 0;
+       width:360px;
+       height:250px;  
+   }  
 }
