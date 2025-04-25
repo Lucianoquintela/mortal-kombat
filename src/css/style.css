@@ -27,13 +27,6 @@ main {
     margin: 50px 15px 0 15px;
 }
 
-main .subitulos {
-    margin-left: 150px;
-}
-
-main .espacamento-subitulos {
-    margin-top: 30px;
-}
 
 .mk-descricao {
     font-size: 20px;
@@ -80,51 +73,3 @@ main .espacamento-subitulos {
     border: solid 2px;
 }
 
-table {
-    margin: 0 140px 0 140px;
-}
-
-th {
-    background-color: #6495ED;
-    padding: 10px;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-h2 {
-    color: tomato;
-    margin-bottom: 20px;
-}
-
-
-th {
-    width: 400px;
-    flex-wrap: wrap;
-}
-
-td {
-    background-color: #fff;
-    padding: 10px;
-    color: black;
-    font-size: 20px;
-    text-align: center;
-}
-
-footer {
-    width: 100%;
-    background-color: #363636;
-    height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-}
-
-iframe{
-    display:block;
-    margin:auto;
-    width:800px;
-    height:480px;
-    margin-top:10px;
-    margin-bottom:30px;
-}
